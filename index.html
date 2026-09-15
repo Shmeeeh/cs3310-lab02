@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- 
+css elements:
+text color
+fonts
+border
+margins & padding
+CSS selectors
+Flexbox layout
+positioning
+hover effects
+background image & gradients
+opacity or transparency
+-->
     <head>
         <meta charset="UTF-8"> 
         <title>Index</title>
@@ -9,24 +21,62 @@
     </head>
 
     <body>
-        <p>Ideas:<br>
-            FF7 Advent Children review<br>
-            Backrooms review<br>
-            The Stranger review<br>
-            Limbus Company characters and their influences<br>
-            Cookie Recipe from the fannie farmer's cookbook<br>
-            A website about constellations, maybe just the main 12. Have an animated asteroid in the background and stuff<br>
-        </p>
-        <header>
-            <h1>Final Fantasy VII: Advent Children</h1>
-            <h2>Visual Works; Square Enix Holdings</h2>
-            <subheading>Emmett Stagg</subheading>
-        </header>
+        <nav id="sidebar">
+            <aside>
+                <img src="images/sitelogo.png" alt="Autumn Reads Reviews Site Logo" height="100" width="100">
+                <p id="website-name">Autumn Reads Reviews</p>
+            </aside>
+            <div>
+                <a>Home</a>
+            </div>
+            <div>
+                <a>Reviews</a>
+            </div>
+            <div>
+                <a>About Me</a>
+            </div>
+            <div>
+                <a>Store</a>
+            </div>
+            <p class="big-text">Recent Reviews:</p>
+            <aside>
+                <img class="cover" src="images/strangercover.jpg" alt="The Stranger Book Cover">
+            </aside>
+            <aside>
+                <img class="cover" src="images/carmillacover.jpg" alt="Carmilla Book Cover">
+            </aside>
+        </nav>
         <main>
-            <summary>
-                <p>The 1942 novella <em>The Stranger</em> was an easily engaging read, managing to keep intrigue up even when the story is told at such a drearily slow pace.</p>
-            </summary>
-            <p></p>
+            <header>
+                <h1>The Stranger</h1>
+                <h2>Albert Camus</h2>
+                <img id="headshot" src="images/car0wink.png" height="50">
+                <subheading>- Emmett L. Stagg</subheading>
+            </header>
+
+            <hr>
+
+            <section>
+                <summary>
+                    <p id="intro-paragraph"><em>The 1942 novella The Stranger was an easily engaging read, managing to keep intrigue up even at points where the words seem to inch you forward at a snails pace.</em></p>
+                </summary>
+                <article id="review">
+                    <p id="plot-summary">The Stranger opens with Meursault, a French man who seems to be downtrodden, or perhaps just indifferent, attending his Mother's funeral. As he moves through the processes, we see him seemingly only doing what he expects others expect him to do in such a situation: 
+                        Often times he simply nods along, or says lines akin to "I suppose so." to the people comforting him. He takes his coffee with milk, internally complains of the sun, and sleeps by the casket simply because he was told it is normal. In the end, he returns back to his apartment, seemingly unchanged from the first sentence of the first page.
+                        <br>After the funeral, we follow Meursault interact and develop bonds with a rumored pimp, Raymond, and enter a confusingly romantic relationship with a former secretary at his work, Marie. Despite the relationships cultivated and career opportunities that present themselves to Meursault, he 
+                        still acts very indifferent and apathetic to life. Everything comes to ahead when, during a trip to a beach cabin with Marie, as well as Raymond and some of his associates, Meursault meets with some detractor's of Raymond and makes a sudden, incriminating decision.
+                    </p>
+                    <p class="plot-thoughts">The story takes a most interesting method of delivering its story, as it all is written as though we are witnessing the inner thoughts, the diary entry, or perhaps a retelling of events from our lead, Meursault. 
+                        This unique storytelling structure makes us connect deeply with Meursault, more than I have when reading stories told from an omniscient narrator's point of view. Indeed, by having us experience events directly from Meursault's point of view, 
+                        we forge a very strong connection to his thought processes and reasonings for many of the, perhaps immoral actions, that he takes.
+                    </p>
+                    <p class="plot-thoughts">Meursault's actions upon the beach are, in a way, the climax of action in the book. The entire first part all leads up to that exact moment, the gunshot itself feels as though it has entire pages of buildup. Something I noted, and that is noted by many others who read the book, 
+                        is the way that the Sun almost seems to haunt Meursault during all the worst moments of his life. During the funeral, he is frequently accosted by the sun beaming through the window, or making him sweat during the long walk to the burial. 
+                        The Sun almost comes across as a malevolous influence haunting Meursault, and by his admission in the court case of the second part of the book, caused him to fire the gun.
+                    </p>
+                    <p id="post-review">In summary, The Stranger was a very wonderful read, enough that I can understand why it was ranked as the <a href="https://en.wikipedia.org/wiki/Le_Monde%27s_100_Books_of_the_Century" target="_blank">"#1 most memorable book of the 20th century" by the Paris newspaper <em>Le Monde</em>.</a></p>
+                </article>
+            </section>
         </main>
     </body>
 </html>
